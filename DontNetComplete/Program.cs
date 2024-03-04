@@ -50,17 +50,16 @@ class Horse : Animal
 {
     public override void animalSound()
     {
-        Console.WriteLine("The pig says: hee hee");
+        Console.WriteLine("The horse says: hee hee");
     }
 }
 
-
+// Diamond problem reason Multiple inheritance solution is interface.
 //         A
 //        / \
 //        B C
 //        \ /
 //         D
-
 
 
 
@@ -71,5 +70,9 @@ class Program
         Pig myPig = new Pig();  // Create a Pig object
         myPig.animalSound();
         myPig.legs();
+
+        Horse myHorse = new Horse();
+        myHorse.animalSound();
+        myHorse.sleep();
     }
 }
