@@ -1,8 +1,5 @@
-﻿
-namespace ayush
+﻿namespace ayush
 {
-
-
     interface IAnimal
     {
         void animalSound(); // interface method (does not have a body)
@@ -40,9 +37,6 @@ namespace ayush
             Console.WriteLine("Have 4 legs");
         }
     }
-
-
-
 
     abstract class Animal
     {
@@ -113,7 +107,9 @@ namespace ayush
             int y;
             Console.WriteLine("Take example of Out parameter " + q.fun3(out y));
             Console.WriteLine(y);
+
+            
         }
     }
-
 }
+
