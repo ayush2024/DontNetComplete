@@ -79,7 +79,7 @@
             y = 20;
             return y;
         }
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             Pig myPig = new Pig();  // Create a Pig object
             myPig.animalSound();
